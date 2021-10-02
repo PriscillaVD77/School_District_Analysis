@@ -2,7 +2,7 @@
 
 ## Overview
 
-Maria is the cheif data scientist for a city school district and needs our help preparing standardized test data for analysis, reporting and presentation. This data will help to provide insight about performance trends and patterns, so they can make informed dicisions for the district going forward.
+Maria is the chief data scientist for a city school district and needs our help preparing standardized test data for analysis, reporting and presentation. This data will help to provide insight about performance trends and patterns, so they can make informed dicisions for the district going forward.
 ## Purpose
 We will aggregate the data and showcase trends in school performance
 ## Results
@@ -15,13 +15,14 @@ We will aggregate the data and showcase trends in school performance
 <br>
 In comparing the changes in our district summaries we see the following changes: <br>
 <br>
--Average Math Score Increased by .1 point <br>
--Percentage of students passing math increasded by .2 percent <br>
+-Average Math Score decreased by .1 point <br>
+-Percentage of students passing math decreasded by .2 percent <br>
 -Percentage of students passing reading decreased by .3 percent <br>
 -Percentage of students passing reading and math overall decreased by .1 percent <br>
 <br>
 ### How is the school summary affected? <br>
 #### Original School Summary
+![border](Resourcse/border.png)
 ![old_school_summary](Resources/old_school_summary.png)
 <br>
 #### Corrected School Summary
