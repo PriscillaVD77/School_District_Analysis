@@ -15,7 +15,7 @@ We will aggregate the data and showcase trends in school performance
 ### How is the school summary affected? <br>
 In comparing the changes in our district summaries we see the following changes: <br>
 <br>
--Total students decreased by 461<br>
+-Total students decreased by 461 students <br>
 -Average Math Score decreased by .1 point <br>
 -Percentage of students passing math decreased by .2 percent <br>
 -Percentage of students passing reading decreased by .3 percent <br>
@@ -29,7 +29,7 @@ In comparing the changes in our district summaries we see the following changes:
 ![new_school_summary](Resources/new_school_summary.png)
 <br>
 In comparing the changes in our district summaries we see the following changes:<br>
-*for some of our data some of the changes are less significant with change going out to the hudreds place <br>
+*for some of our data, some of the changes are less significant with change going out to the hundreds place <br>
 <br>
 -The average math scores for the school decreased by .07 points <br>
 -The average reading scores for the school decreased by .05 points <br>
@@ -42,18 +42,18 @@ We were able to change the scores for this group using the following code: <br>
 <br>
 ![Replace Values](Resources/replace_9th_nan.png)
 <br>
-Using this code we are able to replace the values for the ninth graders while still performing our mathematic funtionc. This makes the number of total students the sames while there is less data to compute. This makes the scores significally lower for passing than other schoolsbecuase their are less scores for the total students. <br>
+Using this code we are able to replace the values for the ninth graders while still performing our mathematic functions. This makes the number of total students the same while there is less data to compute. This makes the scores significally lower for passing when compared to other schools becuase there are less scores for the total students. <br>
 ### How does replacing the ninth-grade scores affect the following: <br>
 #### Math and reading scores by grade <br>
 The code for replacing our math and reading scores by grade are shown below: <br>
 <br>
 ![old math scores](Resources/old_math_by_grade.png)<br>
 <br>
-![old math scores](Resources/new_math_by_grade.png)<br>
+![new math scores](Resources/new_math_by_grade.png)<br>
 <br>
 ![old reading scores](Resources/old_reading_by_grade.png)<br>
 <br>
-![old reading scores](Resources/new_reading_by_grade.png)<br>
+![new reading scores](Resources/new_reading_by_grade.png)<br>
 The only significant change for each of the new dataframes is that for Thomas High School, 9th grade scores are now Nan. There is no affect on other grades.
 
 #### Scores by school spending <br>
@@ -70,11 +70,11 @@ There are small changes in the third spending range $630-$644 because this is wh
 -There is a .08% decrease in percent passing reading <br>
 -There is a .08% decrease in percent of students passing overall <br>
 
-#### Scores by school size <br>
+#### Original scores by school size <br>
 In comparing the difference in scores based on school size we see the following changes: <br>
 ##### Original Scores by School Size
-![old_score_by_size](Resources/old_scores_by_size.png)<br>
-##### Original Scores by School Size
+![old_score_by_size](Resources/old_score_by_size.png)<br>
+##### Corrected Scores by School Size
 ![new_score_by_size](Resources/new_score_by_size.png) <br>
 There are small changes in the third spending range $630-$644 because this is where Thomas High School lies <br>
 <br>
@@ -83,17 +83,17 @@ There are small changes in the third spending range $630-$644 because this is wh
 -There is a .02% decrease in percent passing math <br>
 -There is a .08% decrease in percent passing reading <br>
 -There is a .08% decrease in percent of students passing overall <br>
-#### Scores by school type <br>
+#### Original Scores by school type <br>
 In comparing the difference in scores based on spending ranges we see the following changes: <br>
 ##### Original Scores by Schoo Type
 ![old_score_by_type](Resources/old_score_by_school_type.png)<br>
-##### Original Scores by School Type
+##### Corrected Scores by School Type
 ![new_score_by_type](Resources/new_score_by_school_type.png)<br>
 There are small changes in the school type for charter schools because this is where Thomas High School lies <br>
 <br>
 -There is a .01% decrease for percent passing math <br>
 -There is a .04% decrease for percent passing reading <br>
 -There is a .04% decrease for overall passing <br>
-##Summary: Summarize four changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
-As shown in our analysis above the Thomas High School 9th grade scores had the biggest impact on the results for Thomas High school in the per_school_summary data frame. We saw dramatic decrease in their percent passing math decreased with a decrease of 26.36%, the percent passing reading decreased with a decrease of 27.65%, and the percent passing overall with a decrease of 25.87%. We also so major changes in the total district summary overall with percentage of students passing math decreased by .2 percent and
-percentage of students passing reading decreased by .3 percent. We saw more changes through the analysis but they had little significane on the data set overall. 
+## Summary 
+As shown in our analysis above, the Thomas High School 9th grade scores had the biggest impact on the results for Thomas High school in the per_school_summary data frame. We saw dramatic decrease in their percent passing math with a decrease of 26.36%, the percent passing reading with a decrease of 27.65%, and the percent passing overall with a decrease of 25.87%. We also see major changes in the total district summary overall with percentage of students passing math decreased by .2% and
+percentage of students passing reading decreased by .3%. We saw more changes through the analysis but they had little significane on the data set overall. The biggest impact on the scores were on the analysis on Thomas High School because the change in overall scores was not enough to have much impact on the districts scores. 
